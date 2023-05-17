@@ -1,7 +1,7 @@
 import random
 import webbrowser
 
-def provjeri_znanje():
+def provjeri_tablicu():
     # Unos broja pitanja od korisnika
     broj_pitanja = int(input("Unesite broj pitanja za provjeru (do 100): "))
     # u slučaju da je unešen broj pitanja veći od 100
@@ -39,4 +39,4 @@ def provjeri_znanje():
     print("****************")
     # kao nagradu otvara stranicu sa matematičkim igricama ili neki drugi link
     webbrowser.open('https://mathgames.com')
-provjeri_znanje()
+provjeri_tablicu()
